@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>CSCI 5611 Project 1 - Nathaniel Ludwig - ludwi298</h1>
+        <h2>A brief description of features</h2>
+        <ul>
+            <li>Single Agent Navigation - timestamp: 00:05</li>
+            <li>Improved Agent and Scene Rendering - timestamp: 00:00</li>
+            <li>Orientation Smoothing - timestamp: 00:05</li>
+            <li>User Scenario Editing - timestamp: 00:00</li>
+        </ul>
+        <h2>An explicit list of features </h2>
+        <ul>
+            <li>Single Agent Navigation: The agent moves at a constant velocity
+            along its path from the start to goal position. I've also implemented
+            motion smoothing as shown in the lecture by skipping nodes in 
+            the path if possible</li>
+            <li>Improved Agent and Scene Rendering: The theme is a plane 
+            navigating throughout the clouds. the clouds are sprites
+            that are used as the texture of a quad. an airplane sprite 
+            is also used. Bounding circles are used as the hitbox</li>
+            <li>Orientation Smoothing: the planes orientation matches its
+            path. The motion is also smoothed.</li>
+            <li>User Scenario Editing - obstacles can be added to the Scene
+            at the mouse positionby pressing the A key on the keyboard.
+            an obstacle can be moved around by hovering over it with the mouse
+            and using the arrow keys. the agent position can be moved with
+            right click and the goal position can be moved with left click</li>
+        </ul>
+        <h2>Source Code</h2>
+        <a href="https://raw.githubusercontent.com/NathanielLudwig/CSCI-5611-project1/master/Proj1_Test.pde">Proj1_Test.pde</a>
+        <a href="https://raw.githubusercontent.com/NathanielLudwig/CSCI-5611-project1/master/CollisionLibrary.pde">CollisionLibrary.pde</a>
+        <a href="https://raw.githubusercontent.com/NathanielLudwig/CSCI-5611-project1/master/PRM.pde">PRM.pde</a>
+        <a href="https://github.com/NathanielLudwig/CSCI-5611-project1/blob/master/Vec2.pde">Vec2.pde</a>
+        <a href="https://github.com/NathanielLudwig/CSCI-5611-project1/archive/refs/heads/master.zip">ALL FILES - zip</a><br><br>
+        <h2>List of tools/libraries</h2>
+        <p>Processing, based off the sample proj1 prm code. The a* implementation
+        is based off Wikipedia pseudocode: https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode</p>
+        <h2>difficulties encountered</h2>
+        <p>Not many issues, I probably spent most of the time on the A*.</p>
+        <h2>video</h2>
+        <video width="400" controls autoplay>
+            <source src="" type="video/mp4">
+        </video>
+        <br>
+        <p>no challenges</p>
+
+
+    </body>
+</html>
